@@ -19,13 +19,6 @@ class ReadmeUpdater:
         except requests.exceptions.RequestException as e:
             return False, f"网址访问出现异常：{str(e)}"
 
-    def replace_status_with_error(self, match):
-        status = match.group(1)
-        if "⭐Running" in status:
-            return '<span style="color: red">❌Error</span>'
-        else:
-            return status
-
     def update_readme(self):
         with open(self.file_path, "r", encoding="utf-8") as file:
             content = file.read()
@@ -40,7 +33,7 @@ class ReadmeUpdater:
             if not result:
                 new_content = re.sub(
                     f'({re.escape(url)}.*?)<span style="color: green">⭐Running</span>',
-                    self.replace_status_with_error,
+                    r'\1<span style="color: red">❌Error</span>',
                     new_content,
                 )
 

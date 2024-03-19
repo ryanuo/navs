@@ -2,7 +2,7 @@ import re
 import requests
 
 # 读取 readme.md 文件
-with open("readme.md", "r", encoding="utf-8") as file:
+with open("README.md", "r", encoding="utf-8") as file:
     content = file.read()
 
 

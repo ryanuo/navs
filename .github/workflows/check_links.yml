@@ -1,0 +1,38 @@
+name: Check Links
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # 每天午夜执行
+  push:
+    branches: [master]
+  watch:
+    types: started
+jobs:
+  check_links:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Check and update links
+        run: |
+          python check_links.py  # 假设你编写了一个 Python 脚本来检查和更新链接状态
+
+      - name: Commit and push if changes
+        run: |
+          git config --global user.email "iui9@qq.com"
+          git config --global user.name "rr210"
+          git add .
+          git diff-index --quiet HEAD || git commit -m "Update link status"
+          git push

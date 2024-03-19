@@ -27,7 +27,7 @@ jobs:
 
       - name: Check and update links
         run: |
-          python check_links.py  # 假设你编写了一个 Python 脚本来检查和更新链接状态
+          python check_links.py
 
       - name: Commit and push if changes
         run: |

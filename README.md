@@ -1,11 +1,11 @@
 ## Navs
-Summary of front-end navigation external links
+Summary of front-end navigation external links,🌟 indicates the site is operating normally, ❌ indicates access is abnormal.
+
+<!-- @badge-start -->
+<!-- @badge-end -->
 
 
 ## Front-end Navigation List
 
 <!-- @start -->
-| Name                                  | Status                                     |
-| ------------------------------------- | ------------------------------------------ |
-| [前端导航](https://nav.poetries.top/) | <span style="color: green">⭐Running</span> |
 <!-- @end -->

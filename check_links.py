@@ -56,7 +56,7 @@ class ReadmeUpdater:
             link = item["link"]
             result, status_icon = check_url_availability(link)
             print(f"「{title}」{link}：{status_icon}")
-            readme_content += f"| {title} | <a href='{link}' target='_blank'>🔗{link}</a> | {status_icon} |\n"
+            readme_content += f"| {title} | 🔗<a href='{link}' target='_blank'>{link}</a> | {status_icon} |\n"
         readme_content += "<!-- @end -->"
 
         if os.path.exists(self.file_path):

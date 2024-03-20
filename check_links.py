@@ -1,5 +1,6 @@
 import os
 import re
+import pytz
 import requests
 import yaml
 import datetime
@@ -19,11 +20,18 @@ def check_url_availability(url, timeout=5):
 
 
 def get_badge_content(total_links, running, error):
-    current_date = datetime.datetime.now().strftime("%Y/%m/%d")
+    # 获取当前时间
+    current_date = datetime.datetime.now()
+    # 将当前时间转换为北京时间
+    beijing_tz = pytz.timezone("Asia/Shanghai")
+    current_date_beijing = current_date.astimezone(beijing_tz)
+    # 格式化为指定的日期格式
+    current_date_formatted = current_date_beijing.strftime("%Y/%m/%d")
+
     badge_content = "\n".join(
         [
             f"<!-- @badge-start -->",
-            f"![](https://img.shields.io/badge/check_link-{current_date}-blue?style=flat-square)",
+            f"![](https://img.shields.io/badge/check_link-{current_date_formatted}-blue?style=flat-square)",
             f"![](https://img.shields.io/badge/link_totals-{total_links}-7C33FF?style=flat-square)",
             f"![](https://img.shields.io/badge/running-{running}-green?style=flat-square)",
             f"![](https://img.shields.io/badge/error-{error}-FF3336?style=flat-square)",

@@ -31,7 +31,7 @@ jobs:
 
       - name: Commit and push if changes
         run: |
-          git config --global user.email "iui9@qq.com"
+          git config --global user.email "1577791638@qq.com"
           git config --global user.name "rr210"
           git add .
           git diff-index --quiet HEAD || git commit -m "Update link status"

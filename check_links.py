@@ -22,6 +22,7 @@ def check_url_availability(url, timeout=5):
 def get_badge_content(total_links, running, error):
     # 获取当前时间
     current_date = datetime.datetime.now()
+    print(current_date, "running check links date")
     # 将当前时间转换为北京时间
     beijing_tz = pytz.timezone("Asia/Shanghai")
     current_date_beijing = current_date.astimezone(beijing_tz)

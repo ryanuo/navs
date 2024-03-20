@@ -23,7 +23,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests yaml
+          pip install requests pyyaml
 
       - name: Check and update links
         run: |

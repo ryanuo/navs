@@ -14,7 +14,7 @@ Summary of front-end navigation external links,🌟 indicates the site is operat
 <!-- @start -->
 | title | link | status |
 | ----- | ---- | :----: |
-| home | 🔗Link | 🌟 |
-| 前端导航 | 🔗Link | 🌟 |
-| 测试 | 🔗Link | ❌ |
+| home | <a href='https://mr90.top' target='_blank'>https://mr90.top</a> | 🌟 |
+| 前端导航 | <a href='https://nav.poetries.top/' target='_blank'>https://nav.poetries.top/</a> | 🌟 |
+| 测试 | <a href='https://www.dddd76yt.cn' target='_blank'>https://www.dddd76yt.cn</a> | ❌ |
 <!-- @end -->

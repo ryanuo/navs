@@ -2,7 +2,7 @@
 Summary of front-end navigation external links,🌟 indicates the site is operating normally, ❌ indicates access is abnormal.
 
 <!-- @badge-start -->
-![](https://img.shields.io/badge/check_link-2024/03/21-blue?style=flat-square)
+![](https://img.shields.io/badge/check_link-2024/03/22-blue?style=flat-square)
 ![](https://img.shields.io/badge/link_totals-12-7C33FF?style=flat-square)
 ![](https://img.shields.io/badge/running-11-green?style=flat-square)
 ![](https://img.shields.io/badge/error-1-FF3336?style=flat-square)

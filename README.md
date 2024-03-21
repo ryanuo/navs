@@ -3,8 +3,8 @@ Summary of front-end navigation external links,🌟 indicates the site is operat
 
 <!-- @badge-start -->
 ![](https://img.shields.io/badge/check_link-2024/03/21-blue?style=flat-square)
-![](https://img.shields.io/badge/link_totals-11-7C33FF?style=flat-square)
-![](https://img.shields.io/badge/running-10-green?style=flat-square)
+![](https://img.shields.io/badge/link_totals-12-7C33FF?style=flat-square)
+![](https://img.shields.io/badge/running-11-green?style=flat-square)
 ![](https://img.shields.io/badge/error-1-FF3336?style=flat-square)
 <!-- @badge-end -->
 
@@ -18,6 +18,7 @@ Summary of front-end navigation external links,🌟 indicates the site is operat
 | 搜索-前端导航 | 🔗<a href='https://wangchujiang.com/FED/?kw=' target='_blank'>https://wangchujiang.com/FED/?kw=</a> | 🌟 |
 | 前端编程导航 | 🔗<a href='https://nav.daijl.cn/' target='_blank'>https://nav.daijl.cn/</a> | 🌟 |
 | 前端导航 | 🔗<a href='https://nav.poetries.top/' target='_blank'>https://nav.poetries.top/</a> | 🌟 |
+| 一设导航 | 🔗<a href='https://designtt.cc/' target='_blank'>https://designtt.cc/</a> | 🌟 |
 | 小呆导航 | 🔗<a href='https://webjike.com/web.html' target='_blank'>https://webjike.com/web.html</a> | 🌟 |
 | FrontEnd | 🔗<a href='https://lee.js.org/My-Nav/FrontEnd/#/Index' target='_blank'>https://lee.js.org/My-Nav/FrontEnd/#/Index</a> | 🌟 |
 | maomao | 🔗<a href='https://notes.fe-mm.com/nav' target='_blank'>https://notes.fe-mm.com/nav</a> | 🌟 |

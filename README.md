@@ -12,16 +12,21 @@ Summary of front-end navigation external links,🌟 indicates the site is operat
 ## Front-end Navigation List
 
 <!-- @start -->
-| title | link | status |
-| ----- | ---- | :----: |
-| home | 🔗<a href='https://mr90.top' target='_blank'>https://mr90.top</a> | 🌟 |
-| 搜索-前端导航 | 🔗<a href='https://wangchujiang.com/FED/?kw=' target='_blank'>https://wangchujiang.com/FED/?kw=</a> | 🌟 |
-| 前端导航 | 🔗<a href='https://nav.poetries.top/' target='_blank'>https://nav.poetries.top/</a> | 🌟 |
-| 小呆导航 | 🔗<a href='https://webjike.com/web.html' target='_blank'>https://webjike.com/web.html</a> | 🌟 |
-| FrontEnd | 🔗<a href='https://lee.js.org/My-Nav/FrontEnd/#/Index' target='_blank'>https://lee.js.org/My-Nav/FrontEnd/#/Index</a> | 🌟 |
-| maomao | 🔗<a href='https://notes.fe-mm.com/nav' target='_blank'>https://notes.fe-mm.com/nav</a> | 🌟 |
-| 百度前端学院 | 🔗<a href='https://ife.baidu.com/encyclopedia/readme1.html' target='_blank'>https://ife.baidu.com/encyclopedia/readme1.html</a> | 🌟 |
-| FED 前端导航 | 🔗<a href='https://www.isqqw.com/ref/docs/feds.html' target='_blank'>https://www.isqqw.com/ref/docs/feds.html</a> | 🌟 |
-| 编程狮导航 | 🔗<a href='https://123.w3cschool.cn/' target='_blank'>https://123.w3cschool.cn/</a> | 🌟 |
-| 测试 | 🔗<a href='https://www.dddd76yt.cn' target='_blank'>https://www.dddd76yt.cn</a> | ❌ |
+| title         | link                                                                                                                           | status |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------ | :----: |
+| home          | 🔗<a href='https://mr90.top' target='_blank'>https://mr90.top</a>                                                               |   🌟    |
+| 搜索-前端导航 | 🔗<a href='https://wangchujiang.com/FED/?kw=' target='_blank'>https://wangchujiang.com/FED/?kw=</a>                             |   🌟    |
+| 前端导航      | 🔗<a href='https://nav.poetries.top/' target='_blank'>https://nav.poetries.top/</a>                                             |   🌟    |
+| 小呆导航      | 🔗<a href='https://webjike.com/web.html' target='_blank'>https://webjike.com/web.html</a>                                       |   🌟    |
+| FrontEnd      | 🔗<a href='https://lee.js.org/My-Nav/FrontEnd/#/Index' target='_blank'>https://lee.js.org/My-Nav/FrontEnd/#/Index</a>           |   🌟    |
+| maomao        | 🔗<a href='https://notes.fe-mm.com/nav' target='_blank'>https://notes.fe-mm.com/nav</a>                                         |   🌟    |
+| 百度前端学院  | 🔗<a href='https://ife.baidu.com/encyclopedia/readme1.html' target='_blank'>https://ife.baidu.com/encyclopedia/readme1.html</a> |   🌟    |
+| FED 前端导航  | 🔗<a href='https://www.isqqw.com/ref/docs/feds.html' target='_blank'>https://www.isqqw.com/ref/docs/feds.html</a>               |   🌟    |
+| 编程狮导航    | 🔗<a href='https://123.w3cschool.cn/' target='_blank'>https://123.w3cschool.cn/</a>                                             |   🌟    |
+| 测试          | 🔗<a href='https://www.dddd76yt.cn' target='_blank'>https://www.dddd76yt.cn</a>                                                 |   ❌    |
 <!-- @end -->
+
+
+## Welcome to contribute
+
+If you need to add any additional navigation sites, please provide 📄<a href='https://github.com/rr210/navs/issues/new?assignees=&labels=add&projects=&template=-add--new-navs.md&title=%5BADD%5Dnew+Nav.' target='_blank'>issue</a>.

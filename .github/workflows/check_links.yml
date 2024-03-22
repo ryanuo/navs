@@ -2,7 +2,7 @@ name: Check Links
 
 on:
   schedule:
-    - cron: "0 16 * * *" # 每天午夜执行
+    - cron: "30 1 * * *"
   push:
     branches: [master]
   watch:

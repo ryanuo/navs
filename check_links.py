@@ -22,8 +22,9 @@ def check_url_availability(url, timeout=5):
 
 
 def sent_notices(msg):
-    # 获取配置文件
-    send_qywx_message(msg)
+    if os.environ.get("QY_WX_TOKEN"):
+        # 获取配置文件
+        send_qywx_message(msg)
 
 
 def get_badge_content(total_links, running, error):

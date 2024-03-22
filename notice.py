@@ -19,10 +19,6 @@ def get_beijing_time(format_="%Y-%m-%d %H:%M:%S"):
     return formatted_datetime
 
 
-# 设置 Clash 代理
-proxies = {"http": "http://127.0.0.1:7890", "https": "http://127.0.0.1:7890"}
-
-
 def send_text(token, msg):
     send_url = f"https://qyapi.weixin.qq.com/cgi-bin/message/send?access_token={token}"
     data = json.dumps(
@@ -39,12 +35,12 @@ def send_text(token, msg):
             },
         }
     )
-    response = requests.post(send_url, data, proxies=proxies)
+    response = requests.post(send_url, data)
     print(response.text)
 
 
 def send_qywx_message(message):
     url = f"https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid={company_id}&corpsecret={app_secret}"
-    response = requests.get(url, proxies=proxies)
+    response = requests.get(url)
     token_json = json.loads(response.text)
     send_text(token=token_json["access_token"], msg=message)

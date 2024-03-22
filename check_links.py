@@ -5,6 +5,8 @@ import requests
 import yaml
 import datetime
 
+from notice import send_qywx_message
+
 
 def check_url_availability(url, timeout=5):
     try:
@@ -19,6 +21,11 @@ def check_url_availability(url, timeout=5):
         return False, "❌"
 
 
+def sent_notices(msg):
+    # 获取配置文件
+    send_qywx_message(msg)
+
+
 def get_badge_content(total_links, running, error):
     # 获取当前时间
     current_date = datetime.datetime.now()
@@ -28,7 +35,7 @@ def get_badge_content(total_links, running, error):
     current_date_beijing = current_date.astimezone(beijing_tz)
     # 格式化为指定的日期格式
     current_date_formatted = current_date_beijing.strftime("%Y/%m/%d")
-
+    # 通知链接
     badge_content = "\n".join(
         [
             f"<!-- @badge-start -->",
@@ -67,6 +74,7 @@ class ReadmeUpdater:
             print(f"「{title}」{link}：{status_icon}")
             readme_content += f"| {title} | 🔗<a href='{link}' target='_blank'>{link}</a> | {status_icon} |\n"
         readme_content += "<!-- @end -->"
+        sent_notices({"total": total_links, "running": running, "error": error})
 
         if os.path.exists(self.file_path):
             with open(self.file_path, "r", encoding="utf-8") as file:

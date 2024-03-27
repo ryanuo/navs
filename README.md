@@ -3,9 +3,9 @@ Summary of front-end navigation external links,🌟 indicates the site is operat
 
 <!-- @badge-start -->
 ![](https://img.shields.io/badge/check_link-2024/03/27-blue?style=flat-square)
-![](https://img.shields.io/badge/link_totals-16-7C33FF?style=flat-square)
-![](https://img.shields.io/badge/running-14-green?style=flat-square)
-![](https://img.shields.io/badge/error-2-FF3336?style=flat-square)
+![](https://img.shields.io/badge/link_totals-17-7C33FF?style=flat-square)
+![](https://img.shields.io/badge/running-16-green?style=flat-square)
+![](https://img.shields.io/badge/error-1-FF3336?style=flat-square)
 <!-- @badge-end -->
 
 
@@ -15,6 +15,7 @@ Summary of front-end navigation external links,🌟 indicates the site is operat
 | title | link | status |
 | ----- | ---- | :----: |
 | home | 🔗<a href='https://mr90.top' target='_blank'>https://mr90.top</a> | 🌟 |
+| 在线转ico透明背景 | 🔗<a href='https://www.ico51.cn/' target='_blank'>https://www.ico51.cn/</a> | 🌟 |
 | 搜索-前端导航 | 🔗<a href='https://wangchujiang.com/FED/?kw=' target='_blank'>https://wangchujiang.com/FED/?kw=</a> | 🌟 |
 | 前端编程导航 | 🔗<a href='https://nav.daijl.cn/' target='_blank'>https://nav.daijl.cn/</a> | 🌟 |
 | 前端导航 | 🔗<a href='https://nav.poetries.top/' target='_blank'>https://nav.poetries.top/</a> | 🌟 |

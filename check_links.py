@@ -59,23 +59,36 @@ class ReadmeUpdater:
         with open(self.link_file_path, "r", encoding="utf-8") as file:
             links = yaml.load(file, Loader=yaml.SafeLoader)
 
-        total_links = len(links)
-        running = sum(1 for item in links if check_url_availability(item["link"])[0])
-        error = total_links - running
-        # Generate badge content
-        badge_content = get_badge_content(total_links, running, error)
+        total_links = 0
+        success_links = 0
 
         readme_content = "<!-- @start -->\n"
-        readme_content += "| title | link | status |\n"
-        readme_content += "| ----- | ---- | :----: |\n"
-        for item in links:
-            title = item["title"]
-            link = item["link"]
-            result, status_icon = check_url_availability(link)
-            print(f"「{title}」{link}：{status_icon}")
-            readme_content += f"| {title} | 🔗<a href='{link}' target='_blank'>{link}</a> | {status_icon} |\n"
+        # 统计链接总数和成功链接数
+        for item, item_links in links.items():
+            total_links += len(item_links)
+            readme_content += f"## {item}\n"
+            readme_content += "| title | link | status |\n"
+            readme_content += "| ----- | ---- | :----: |\n"
+            for link_data in item_links:
+                title = link_data["title"]
+                link = link_data["link"]
+                result, status_icon = check_url_availability(link)
+                print(f"「{title}」{link}：{status_icon}")
+                if result:
+                    success_links += 1
+                readme_content += f"| {title} | 🔗<a href='{link}' target='_blank'>{link}</a> | {status_icon} |\n"
+            readme_content += "\n"
         readme_content += "<!-- @end -->"
-        sent_notices({"total": total_links, "running": running, "error": error})
+
+        # 计算失败链接数
+        error_links = total_links - success_links
+        # # Generate badge content
+        badge_content = get_badge_content(total_links, success_links, error_links)
+        print(badge_content)
+
+        sent_notices(
+            {"total": total_links, "running": success_links, "error": error_links}
+        )
 
         if os.path.exists(self.file_path):
             with open(self.file_path, "r", encoding="utf-8") as file:

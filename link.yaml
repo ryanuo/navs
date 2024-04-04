@@ -1,40 +1,48 @@
-- link: https://mr90.top
-  title: home
-- link: https://www.ico51.cn/
-  title: 在线转ico透明背景
-- link: https://wangchujiang.com/FED/?kw=
-  title: 搜索-前端导航
-- link: https://good.xjai.top/?u=webpon
-  title: 搜索-前端导航
-- link: https://huamao.vip/
-  title: 花猫导航
-- link: https://nav.daijl.cn/
-  title: 前端编程导航
-- link: https://nav.poetries.top/
-  title: 前端导航
-- link: https://spiderbox.cn/
-  title: 爬虫导航站
-- link: https://designtt.cc/
-  title: 一设导航
-- link: https://webjike.com/web.html
-  title: 小呆导航
-- link: https://lee.js.org/My-Nav/FrontEnd/#/Index
-  title: FrontEnd
-- link: https://www.jyshare.com/
-  title: 菜鸟工具
-- link: https://www.bestcyt.com/
-  title: 爱前端导航
-- link: https://notes.fe-mm.com/nav
-  title: maomao
-- link: https://ife.baidu.com/encyclopedia/readme1.html
-  title: 百度前端学院
-- link: https://www.isqqw.com/ref/docs/feds.html
-  title: FED 前端导航
-- link: https://123.w3cschool.cn/
-  title: 编程狮导航
-- link: https://no.buging.cn/
-  title: 前端导航
-- link: https://note.bingkele.cc/efficiency/software/vscode
-  title: vscode配置
-- link: https://www.dddd76yt.cn
-  title: 测试
+HOME:
+  - link: https://mr90.top
+    title: home
+
+Tools:
+  - link: https://www.ico51.cn/
+    title: 在线转ico透明背景
+  - link: https://www.yxssp.com/
+    title: 软件下载
+  - link: https://www.jyshare.com/
+    title: 菜鸟工具
+
+Config:
+  - link: https://note.bingkele.cc/efficiency/software/vscode
+    title: vscode配置
+Nav:
+  - link: https://wangchujiang.com/FED/?kw=
+    title: 搜索-前端导航
+  - link: https://good.xjai.top/?u=webpon
+    title: 搜索-前端导航
+  - link: https://huamao.vip/
+    title: 花猫导航
+  - link: https://nav.daijl.cn/
+    title: 前端编程导航
+  - link: https://nav.poetries.top/
+    title: 前端导航
+  - link: https://spiderbox.cn/
+    title: 爬虫导航站
+  - link: https://designtt.cc/
+    title: 一设导航
+  - link: https://webjike.com/web.html
+    title: 小呆导航
+  - link: https://lee.js.org/My-Nav/FrontEnd/#/Index
+    title: FrontEnd
+  - link: https://www.bestcyt.com/
+    title: 爱前端导航
+  - link: https://notes.fe-mm.com/nav
+    title: maomao
+  - link: https://ife.baidu.com/encyclopedia/readme1.html
+    title: 百度前端学院
+  - link: https://www.isqqw.com/ref/docs/feds.html
+    title: FED 前端导航
+  - link: https://123.w3cschool.cn/
+    title: 编程狮导航
+  - link: https://no.buging.cn/
+    title: 前端导航
+  - link: https://www.dddd76yt.cn
+    title: 测试

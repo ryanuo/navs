@@ -2,10 +2,10 @@
 Summary of front-end navigation external links,🌟 indicates the site is operating normally, ❌ indicates access is abnormal.
 
 <!-- @badge-start -->
-![](https://img.shields.io/badge/check_link-2024/04/03-blue?style=flat-square)
+![](https://img.shields.io/badge/check_link-2024/04/04-blue?style=flat-square)
 ![](https://img.shields.io/badge/link_totals-20-7C33FF?style=flat-square)
-![](https://img.shields.io/badge/running-19-green?style=flat-square)
-![](https://img.shields.io/badge/error-1-FF3336?style=flat-square)
+![](https://img.shields.io/badge/running-18-green?style=flat-square)
+![](https://img.shields.io/badge/error-2-FF3336?style=flat-square)
 <!-- @badge-end -->
 
 
@@ -26,7 +26,7 @@ Summary of front-end navigation external links,🌟 indicates the site is operat
 | 小呆导航 | 🔗<a href='https://webjike.com/web.html' target='_blank'>https://webjike.com/web.html</a> | 🌟 |
 | FrontEnd | 🔗<a href='https://lee.js.org/My-Nav/FrontEnd/#/Index' target='_blank'>https://lee.js.org/My-Nav/FrontEnd/#/Index</a> | 🌟 |
 | 菜鸟工具 | 🔗<a href='https://www.jyshare.com/' target='_blank'>https://www.jyshare.com/</a> | 🌟 |
-| 爱前端导航 | 🔗<a href='https://www.bestcyt.com/' target='_blank'>https://www.bestcyt.com/</a> | 🌟 |
+| 爱前端导航 | 🔗<a href='https://www.bestcyt.com/' target='_blank'>https://www.bestcyt.com/</a> | ❌ |
 | maomao | 🔗<a href='https://notes.fe-mm.com/nav' target='_blank'>https://notes.fe-mm.com/nav</a> | 🌟 |
 | 百度前端学院 | 🔗<a href='https://ife.baidu.com/encyclopedia/readme1.html' target='_blank'>https://ife.baidu.com/encyclopedia/readme1.html</a> | 🌟 |
 | FED 前端导航 | 🔗<a href='https://www.isqqw.com/ref/docs/feds.html' target='_blank'>https://www.isqqw.com/ref/docs/feds.html</a> | 🌟 |

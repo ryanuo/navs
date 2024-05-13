@@ -2,10 +2,10 @@
 Summary of front-end navigation external links,🌟 indicates the site is operating normally, ❌ indicates access is abnormal.
 
 <!-- @badge-start -->
-![](https://img.shields.io/badge/check_link-2024/05/12-blue?style=flat-square)
+![](https://img.shields.io/badge/check_link-2024/05/13-blue?style=flat-square)
 ![](https://img.shields.io/badge/link_totals-21-7C33FF?style=flat-square)
-![](https://img.shields.io/badge/running-20-green?style=flat-square)
-![](https://img.shields.io/badge/error-1-FF3336?style=flat-square)
+![](https://img.shields.io/badge/running-19-green?style=flat-square)
+![](https://img.shields.io/badge/error-2-FF3336?style=flat-square)
 <!-- @badge-end -->
 
 
@@ -34,7 +34,7 @@ Summary of front-end navigation external links,🌟 indicates the site is operat
 | ----- | ---- | :----: |
 | 摸摸鱼推荐 | 🔗<a href='https://nav.momoyu.cc/' target='_blank'>https://nav.momoyu.cc/</a> | 🌟 |
 | 搜索-前端导航 | 🔗<a href='https://wangchujiang.com/FED/?kw=' target='_blank'>https://wangchujiang.com/FED/?kw=</a> | 🌟 |
-| 搜索-前端导航 | 🔗<a href='https://good.xjai.top/?u=webpon' target='_blank'>https://good.xjai.top/?u=webpon</a> | 🌟 |
+| 搜索-前端导航 | 🔗<a href='https://good.xjai.top/?u=webpon' target='_blank'>https://good.xjai.top/?u=webpon</a> | ❌ |
 | 花猫导航 | 🔗<a href='https://huamao.vip/' target='_blank'>https://huamao.vip/</a> | 🌟 |
 | 前端编程导航 | 🔗<a href='https://nav.daijl.cn/' target='_blank'>https://nav.daijl.cn/</a> | 🌟 |
 | 前端导航 | 🔗<a href='https://nav.poetries.top/' target='_blank'>https://nav.poetries.top/</a> | 🌟 |

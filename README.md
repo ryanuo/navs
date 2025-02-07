@@ -2,10 +2,10 @@
 Summary of front-end navigation external links,🌟 indicates the site is operating normally, ❌ indicates access is abnormal.
 
 <!-- @badge-start -->
-![](https://img.shields.io/badge/check_link-2025/02/06-blue?style=flat-square)
+![](https://img.shields.io/badge/check_link-2025/02/07-blue?style=flat-square)
 ![](https://img.shields.io/badge/link_totals-21-7C33FF?style=flat-square)
-![](https://img.shields.io/badge/running-16-green?style=flat-square)
-![](https://img.shields.io/badge/error-5-FF3336?style=flat-square)
+![](https://img.shields.io/badge/running-18-green?style=flat-square)
+![](https://img.shields.io/badge/error-3-FF3336?style=flat-square)
 <!-- @badge-end -->
 
 
@@ -32,7 +32,7 @@ Summary of front-end navigation external links,🌟 indicates the site is operat
 ## Nav
 | title | link | status |
 | ----- | ---- | :----: |
-| 摸摸鱼推荐 | 🔗<a href='https://nav.momoyu.cc/' target='_blank'>https://nav.momoyu.cc/</a> | ❌ |
+| 摸摸鱼推荐 | 🔗<a href='https://nav.momoyu.cc/' target='_blank'>https://nav.momoyu.cc/</a> | 🌟 |
 | 搜索-前端导航 | 🔗<a href='https://wangchujiang.com/FED/?kw=' target='_blank'>https://wangchujiang.com/FED/?kw=</a> | 🌟 |
 | 搜索-前端导航 | 🔗<a href='https://good.xjai.top/?u=webpon' target='_blank'>https://good.xjai.top/?u=webpon</a> | 🌟 |
 | 花猫导航 | 🔗<a href='https://huamao.vip/' target='_blank'>https://huamao.vip/</a> | ❌ |
@@ -42,7 +42,7 @@ Summary of front-end navigation external links,🌟 indicates the site is operat
 | 一设导航 | 🔗<a href='https://designtt.cc/' target='_blank'>https://designtt.cc/</a> | 🌟 |
 | 小呆导航 | 🔗<a href='https://webjike.com/web.html' target='_blank'>https://webjike.com/web.html</a> | 🌟 |
 | FrontEnd | 🔗<a href='https://lee.js.org/My-Nav/FrontEnd/#/Index' target='_blank'>https://lee.js.org/My-Nav/FrontEnd/#/Index</a> | 🌟 |
-| 爱前端导航 | 🔗<a href='https://www.bestcyt.com/' target='_blank'>https://www.bestcyt.com/</a> | ❌ |
+| 爱前端导航 | 🔗<a href='https://www.bestcyt.com/' target='_blank'>https://www.bestcyt.com/</a> | 🌟 |
 | maomao | 🔗<a href='https://notes.fe-mm.com/nav' target='_blank'>https://notes.fe-mm.com/nav</a> | 🌟 |
 | 百度前端学院 | 🔗<a href='https://ife.baidu.com/encyclopedia/readme1.html' target='_blank'>https://ife.baidu.com/encyclopedia/readme1.html</a> | 🌟 |
 | FED 前端导航 | 🔗<a href='https://www.isqqw.com/ref/docs/feds.html' target='_blank'>https://www.isqqw.com/ref/docs/feds.html</a> | 🌟 |

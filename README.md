@@ -2,10 +2,10 @@
 Summary of front-end navigation external links,🌟 indicates the site is operating normally, ❌ indicates access is abnormal.
 
 <!-- @badge-start -->
-![](https://img.shields.io/badge/check_link-2025/03/20-blue?style=flat-square)
+![](https://img.shields.io/badge/check_link-2025/03/21-blue?style=flat-square)
 ![](https://img.shields.io/badge/link_totals-21-7C33FF?style=flat-square)
-![](https://img.shields.io/badge/running-16-green?style=flat-square)
-![](https://img.shields.io/badge/error-5-FF3336?style=flat-square)
+![](https://img.shields.io/badge/running-18-green?style=flat-square)
+![](https://img.shields.io/badge/error-3-FF3336?style=flat-square)
 <!-- @badge-end -->
 
 
@@ -20,7 +20,7 @@ Summary of front-end navigation external links,🌟 indicates the site is operat
 ## Tools
 | title | link | status |
 | ----- | ---- | :----: |
-| 在线转ico透明背景 | 🔗<a href='https://www.ico51.cn/' target='_blank'>https://www.ico51.cn/</a> | ❌ |
+| 在线转ico透明背景 | 🔗<a href='https://www.ico51.cn/' target='_blank'>https://www.ico51.cn/</a> | 🌟 |
 | 软件下载 | 🔗<a href='https://www.yxssp.com/' target='_blank'>https://www.yxssp.com/</a> | 🌟 |
 | 菜鸟工具 | 🔗<a href='https://www.jyshare.com/' target='_blank'>https://www.jyshare.com/</a> | 🌟 |
 
@@ -46,7 +46,7 @@ Summary of front-end navigation external links,🌟 indicates the site is operat
 | maomao | 🔗<a href='https://notes.fe-mm.com/nav' target='_blank'>https://notes.fe-mm.com/nav</a> | 🌟 |
 | 百度前端学院 | 🔗<a href='https://ife.baidu.com/encyclopedia/readme1.html' target='_blank'>https://ife.baidu.com/encyclopedia/readme1.html</a> | 🌟 |
 | FED 前端导航 | 🔗<a href='https://www.isqqw.com/ref/docs/feds.html' target='_blank'>https://www.isqqw.com/ref/docs/feds.html</a> | 🌟 |
-| 编程狮导航 | 🔗<a href='https://123.w3cschool.cn/' target='_blank'>https://123.w3cschool.cn/</a> | ❌ |
+| 编程狮导航 | 🔗<a href='https://123.w3cschool.cn/' target='_blank'>https://123.w3cschool.cn/</a> | 🌟 |
 | 测试 | 🔗<a href='https://www.dddd76yt.cn' target='_blank'>https://www.dddd76yt.cn</a> | ❌ |
 
 <!-- @end -->

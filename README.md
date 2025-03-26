@@ -2,10 +2,10 @@
 Summary of front-end navigation external links,🌟 indicates the site is operating normally, ❌ indicates access is abnormal.
 
 <!-- @badge-start -->
-![](https://img.shields.io/badge/check_link-2025/03/25-blue?style=flat-square)
+![](https://img.shields.io/badge/check_link-2025/03/26-blue?style=flat-square)
 ![](https://img.shields.io/badge/link_totals-21-7C33FF?style=flat-square)
-![](https://img.shields.io/badge/running-18-green?style=flat-square)
-![](https://img.shields.io/badge/error-3-FF3336?style=flat-square)
+![](https://img.shields.io/badge/running-19-green?style=flat-square)
+![](https://img.shields.io/badge/error-2-FF3336?style=flat-square)
 <!-- @badge-end -->
 
 
@@ -15,7 +15,7 @@ Summary of front-end navigation external links,🌟 indicates the site is operat
 ## HOME
 | title | link | status |
 | ----- | ---- | :----: |
-| home | 🔗<a href='https://mr90.top' target='_blank'>https://mr90.top</a> | ❌ |
+| home | 🔗<a href='https://ryanuo.cc' target='_blank'>https://ryanuo.cc</a> | 🌟 |
 
 ## Tools
 | title | link | status |

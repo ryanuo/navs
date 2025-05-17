@@ -2,7 +2,7 @@ name: Check Links
 
 on:
   schedule:
-    - cron: "30 1 * * *"
+    - cron: "30 1 */3 * *"
   push:
     branches: [master]
   watch:
